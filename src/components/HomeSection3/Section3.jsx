@@ -1,23 +1,23 @@
-import React from "react";
+import React from 'react'
 // import partner2 from
-import image1 from "../../assets/image/p3pi1.230af8c7.png";
-import image2 from "../../assets/image/p3pi2.576ac994.png";
-import image3 from "../../assets/image/p3pi3.c2ee4f36.png";
-import image4 from "../../assets/image/image4.png";
-import image5 from "../../assets/image/pLogo13.04000648.png";
-import image6 from "../../assets/image/image6.png";
-import image7 from "../../assets/image/pLogo18.5e2aad0c.png";
-import image8 from "../../assets/image/pLogo19.d1d3951e.png";
-import image9 from "../../assets/image/image9.png";
-import image10 from "../../assets/image/image10.png";
-import image11 from "../../assets/image/image11.png";
-import image12 from "../../assets/image/image12.png";
-import image13 from "../../assets/image/image13.png";
-import image14 from "../../assets/image/image14.png";
-import image15 from "../../assets/image/image15.png";
-import image16 from "../../assets/image/image16.png";
-import image17 from "../../assets/image/image17.png";
-import image18 from "../../assets/image/image18.png";
+import image1 from '../../assets/image/p3pi1.230af8c7.png'
+import image2 from '../../assets/image/p3pi2.576ac994.png'
+import image3 from '../../assets/image/p3pi3.c2ee4f36.png'
+import image4 from '../../assets/image/image4.png'
+import image5 from '../../assets/image/pLogo13.04000648.png'
+import image6 from '../../assets/image/image6.png'
+import image7 from '../../assets/image/pLogo18.5e2aad0c.png'
+import image8 from '../../assets/image/pLogo19.d1d3951e.png'
+import image9 from '../../assets/image/image9.png'
+import image10 from '../../assets/image/image10.png'
+import image11 from '../../assets/image/image11.png'
+import image12 from '../../assets/image/image12.png'
+import image13 from '../../assets/image/image13.png'
+import image14 from '../../assets/image/image14.png'
+import image15 from '../../assets/image/image15.png'
+import image16 from '../../assets/image/image16.png'
+import image17 from '../../assets/image/image17.png'
+import image18 from '../../assets/image/image18.png'
 
 const Section3 = () => {
   return (
@@ -292,8 +292,11 @@ const Section3 = () => {
               <div class="ThirdPart_partnersItemWrapper__8AVFW">
                 <div class="ThirdPart_partnersItemInnerWrapper__wFoep">
                   <div class="ThirdPart_partnersItemCircle__3iZdD">
-                    <div class="ThirdPart_partnersItemLogo5__2ByQD">
-                      <img src={image16} />
+                    <div>
+                      <img
+                        class="ThirdPart_partnersItemLogo5__2ByQD"
+                        src={image16}
+                      />
                     </div>
                   </div>
                 </div>
@@ -338,7 +341,7 @@ const Section3 = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Section3;
+export default Section3
